@@ -1,0 +1,13 @@
+# History files
+r_programming/.Rhistory
+r_programming/.Rapp.history
+
+# Example code in package build process
+*-Ex.R
+
+# RStudio files
+r_programming/.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
