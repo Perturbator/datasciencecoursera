@@ -1,8 +1,5 @@
-file <- c("../household_power_consumption.txt")
+file <- c("household_power_consumption.txt")
 power <- read.csv(file, header=TRUE,sep=";",na.strings='?')
-names(power)
-head(power)
-str(power$Date)
 power_subset <- power[(power$Date == "1/2/2007") | (power$Date == "2/2/2007"),]
 
 hist(power_subset$Global_active_power, col = "red", breaks = 12,
