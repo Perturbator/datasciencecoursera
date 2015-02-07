@@ -1,13 +1,16 @@
 # History files
-r_programming/.Rhistory
-r_programming/.Rapp.history
+*/.Rhistory
+*/.Rapp.history
 
 # Example code in package build process
 *-Ex.R
 
 # RStudio files
-r_programming/.Rproj.user/
+*/.Rproj.user/
 
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+
+# large data set
+*/household_power_consumption.txt
