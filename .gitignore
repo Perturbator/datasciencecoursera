@@ -1,17 +1,5 @@
-# History files
-*.Rhistory
-*.Rapp.history
-
-# Example code in package build process
-*-Ex.R
-
-# RStudio files
-*/.Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# large data set
-*/household_power_consumption.txt
-*/
+./.git/objects/b0/6f3e4c7cddf435f2f2b102b4824f51ee8a6298
+./exploratory_data_analysis/ExData_Plotting1/household_power_consumption.txt
+./getting_and_cleaning_data/Project 1/.git/objects/b0/6f3e4c7cddf435f2f2b102b4824f51ee8a6298
+./getting_and_cleaning_data/Project 1/UCI HAR Dataset/test/X_test.txt
+./getting_and_cleaning_data/Project 1/UCI HAR Dataset/train/X_train.txt
