@@ -1,5 +1,4 @@
 library(dplyr)
-library(tidyr)
 
 activity_labels = read.table("UCI HAR Dataset/activity_labels.txt")[,2]
 
@@ -47,5 +46,5 @@ dat$activity = activity
 # final tidy data
 dat_final <- dat %>% group_by(subject,activity) %>% summarise_each(funs(mean),-subject,-activity)
 
-
-
+# write to txt
+write.table(dat_final, "tidy_data.txt", row.names = FALSE)
